@@ -17,7 +17,7 @@ jobs:
         steps:
             # 1. Schritt den Quellcode vom GitHub-Repository auf den Runner laden (Folie 10)
             - name: Repository auschecken
-              uses: action/checkout@v4
+              uses: actions/checkout@v4
 
             # 2. Schritt: Node.js Umgebung auf dem Linux-Server einrichten
             - name: Node.js einrichten
